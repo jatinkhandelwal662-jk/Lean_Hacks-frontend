@@ -785,14 +785,14 @@ function renderClusteredTable() {
         let actionButton = `
             <button class="btn-action" style="background-color: #2563eb; color: white;" 
                 onclick="openGroupVerifyModal('${cluster.ids.join(',')}', '${cluster.dept}', '${cluster.loc}', ${cluster.count}, '${cluster.rowId}')">
-                <i class="ri-spy-line"></i> Surprise Audit
+                <i class="ri-spy-line"></i> Quality Assurance
             </button>`;
 
         // 🟢 STATE 1: VERIFIED
         if (cluster.isVerified) {
             rowStyle = "background: rgba(22, 163, 74, 0.2); border-left: 4px solid #059669;";
             statusBadge = '<span class="status-badge st-solved" style="background:#059669; color:white;"><i class="ri-shield-check-fill"></i> VERIFIED GENUINE</span>';
-            actionButton = '<button class="btn-action" style="background-color: #059669; color: white; cursor: default; opacity: 0.8;"><i class="ri-check-double-line"></i> Audit Passed</button>';
+            actionButton = '<button class="btn-action" style="background-color: #059669; color: white; cursor: default; opacity: 0.8;"><i class="ri-check-double-line"></i> Passed</button>';
         }
 
         // 🔴 STATE 2: FAILED (RED)
@@ -938,6 +938,7 @@ function markClusterFailed(rowId, loc, count, ids) {
         addNewNotification("DISCREPANCY DETECTED!", `Gap Identified in ${loc}. Citizen denied resolution.`, "Citizen Assurance", "Just Now", "alert");
     }
 }
+
 
 
 
