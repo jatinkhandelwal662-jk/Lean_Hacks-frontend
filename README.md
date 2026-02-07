@@ -443,32 +443,6 @@ npm run build
 npm run deploy
 ```
 
----
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-1. **Report Bugs** - File issues on GitHub
-2. **Suggest Features** - Open feature requests
-3. **Code Contributions** - Fork, branch, PR
-4. **Documentation** - Improve guides and examples
-5. **Testing** - Help test edge cases and workflows
-
-### Development Guidelines
-- Follow ESLint rules for code quality
-- Write clear commit messages
-- Add tests for new features
-- Update documentation as needed
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file for details.
-
----
-
 ## 👥 Team
 
 **Built for Open Innovation Track - Community Problem Solving**
@@ -524,8 +498,5 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 
 **Delhi Sudarshan** - *Empowering Citizens, Enabling Governance*
 
-Built with ❤️ for the people of Delhi and beyond
-
-[🌐 Website](https://lean-hacks-backend.onrender.com) | [📧 Email](mailto:grievancedelhicivic@gmail.com) | [📱 Demo](https://vaani-hom5.vercel.app/)
 
 </div>
