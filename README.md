@@ -194,7 +194,7 @@ Email/Voice/Web complaints auto-routed based on keywords:
 ### Technology Stack
 
 **Frontend:**
-- React.js + Tailwind CSS
+- Html + Javascript + Tailwind CSS
 - WebRTC for real-time voice calling
 - Responsive design for mobile/desktop
 
@@ -219,10 +219,10 @@ Email/Voice/Web complaints auto-routed based on keywords:
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
-│                    COMPLAINT SOURCES                          │
+│                    COMPLAINT SOURCES                         │
 ├──────────────┬──────────────┬──────────────┬─────────────────┤
 │ Voice (Vaani)│  Email Agent │  Web Portal  │  SMS (Twilio)   │
-└──────┬───────┴──────┬───────┴──────┬───────┴─────────┬────────┘
+└──────┬───────┴──────┬───────┴──────┬───────┴─────────┬───────┘
        │              │              │                 │
        └──────────────┴──────────────┴─────────────────┘
                               │
@@ -231,7 +231,7 @@ Email/Voice/Web complaints auto-routed based on keywords:
                    ├─────────────────────┤
                    │ • Text Extraction   │
                    │ • Image Verification│
-                   │ • Auto-Categorization│
+                   │ • Auto-Categorized  │
                    │ • Dept Assignment   │
                    └──────────┬──────────┘
                               │
