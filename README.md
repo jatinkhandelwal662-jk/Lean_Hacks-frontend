@@ -1,4 +1,4 @@
-# 🏛️ Delhi Sudarshan - AI-Powered Civic Grievance Resolution Platform
+# 🏛️ CIVIC ASSISTANT - AI-Powered Civic Grievance Resolution Platform
 
 > **Transforming citizen complaints from fragmented chaos into systematic, transparent, and accountable governance**
 
@@ -27,7 +27,7 @@ Citizen complaints to local authorities are:
 
 ---
 
-## 💡 Our Solution: Delhi Sudarshan
+## 💡 Our Solution: CIVIC ASSISTANT
 
 An **AI-powered stateless overlay** that revolutionizes civic complaint management without replacing existing infrastructure.
 
@@ -164,7 +164,7 @@ Email/Voice/Web complaints auto-routed based on keywords:
 - Citizen calls helpline daily: *"What's my status?"*
 - Frustration, wasted time, overloaded helplines
 
-**Delhi Sudarshan Model:**
+**CIVIC ASSISTANT Model:**
 - Citizen files complaint → Gets unique ID via SMS/Email
 - AI monitors status automatically
 - **Only calls citizen when status changes:**
@@ -306,7 +306,7 @@ Email/Voice/Web complaints auto-routed based on keywords:
 1. Citizen calls AI Voice Agent (Vaani)
 
 2. Vaani (Hindi/English): 
-   "नमस्ते, मैं दिल्ली सुदर्शन की AI सहायक हूँ। अपनी शिकायत बताएं।"
+   "नमस्ते, मैं CIVIC ASSISTANT की AI सहायक हूँ। अपनी शिकायत बताएं।"
 
 3. Citizen speaks: "मेरी गली में बहुत कचरा है। सफाई नहीं हो रही।"
 
@@ -463,14 +463,6 @@ npm run deploy
 
 ---
 
-## 📞 Contact & Support
-
-- **Live Demo Issues:** Check [troubleshooting guide](TROUBLESHOOTING.md)
-- **Email:** grievancedelhicivic@gmail.com
-- **Documentation:** [Full Docs](https://docs.delhi-sudarshan.com)
-
----
-
 ## 🌟 Roadmap
 
 ### Phase 1 (Current)
@@ -496,7 +488,7 @@ npm run deploy
 
 <div align="center">
 
-**Delhi Sudarshan** - *Empowering Citizens, Enabling Governance*
+**CIVIC ASSISTANT** - *Empowering Citizens, Enabling Governance*
 
 
 </div>
