@@ -76,13 +76,7 @@ All channels feed into **one unified dashboard** → [Officer Dashboard](https:/
 #### 4. **🏗️ Legacy Tunneling Architecture**
 *Deploy in weeks, not years. At 10% of the cost.*
 
-**Traditional Digital Transformation:**
-- Replace entire SQL databases (₹10+ Crores)
-- 2-3 years implementation time
-- High risk of data migration failures
-- Training overhead for staff
-
-**Delhi Sudarshan Approach:**
+**Civic Assistant Approach:**
 - **Stateless Overlay** - Sits on top of existing systems
 - **Tunnels into legacy MCD/PWD databases** to read/write
 - Zero replacement cost
@@ -99,7 +93,7 @@ All channels feed into **one unified dashboard** → [Officer Dashboard](https:/
 │       │         │         │         │
 │  ┌────▼─────────▼─────────▼────┐    │
 │  │  Unified Complaint Engine   │    │
-│  └──────────────┬───────────────┘   │
+│  └──────────────┬──────────────┘    │
 │                 │                   │
 │  ┌──────────────▼───────────────┐   │
 │  │  Legacy Database Tunnel      │   │
@@ -215,41 +209,6 @@ Email/Voice/Web complaints auto-routed based on keywords:
 - GitHub Pages (Frontend)
 - Real-time database tunneling to legacy systems
 
-### Data Flow
-
-```
-┌──────────────────────────────────────────────────────────────┐
-│                    COMPLAINT SOURCES                         │
-├──────────────┬──────────────┬──────────────┬─────────────────┤
-│ Voice (Vaani)│  Email Agent │  Web Portal  │  SMS (Twilio)   │
-└──────┬───────┴──────┬───────┴──────┬───────┴─────────┬───────┘
-       │              │              │                 │
-       └──────────────┴──────────────┴─────────────────┘
-                              │
-                   ┌──────────▼──────────┐
-                   │  AI Processing Hub  │
-                   ├─────────────────────┤
-                   │ • Text Extraction   │
-                   │ • Image Verification│
-                   │ • Auto-Categorized  │
-                   │ • Dept Assignment   │
-                   └──────────┬──────────┘
-                              │
-                   ┌──────────▼──────────┐
-                   │  Unified Dashboard  │
-                   │  (Officer Review)   │
-                   └──────────┬──────────┘
-                              │
-                ┌─────────────┼─────────────┐
-                │             │             │
-        ┌───────▼──────┐ ┌───▼────┐ ┌─────▼──────┐
-        │ Auto-Reply   │ │Database│ │ AI Callback│
-        │ (Email/SMS)  │ │ Tunnel │ │ (Quality)  │
-        └──────────────┘ └────────┘ └────────────┘
-```
-
----
-
 ## 📊 Key Features
 
 ### For Citizens
@@ -272,8 +231,7 @@ Email/Voice/Web complaints auto-routed based on keywords:
 - ✅ Auto-assigned complaints (no manual sorting)
 - ✅ Priority flagging for emergencies
 - ✅ Accountability through citizen verification
-- ✅ Timeline tracking and SLA monitoring
-
+  
 ---
 
 ## 🎨 Sample Workflows
@@ -443,25 +401,7 @@ npm run build
 npm run deploy
 ```
 
-## 👥 Team
-
-**Built for Open Innovation Track - Community Problem Solving**
-
-- AI/ML Integration
-- Full-Stack Development
-- Government Integration Architecture
-- Voice Processing Optimization
-
----
-
-## 🙏 Acknowledgments
-
-- **Google Gemini AI** for native audio streaming and vision APIs
-- **Twilio** for reliable voice and SMS infrastructure
-- **SendGrid** for email automation
-- **Open Source Community** for various libraries and tools
-
----
+## 👥 Team TARS
 
 <div align="center">
 
