@@ -463,29 +463,6 @@ npm run deploy
 
 ---
 
-## 🌟 Roadmap
-
-### Phase 1 (Current)
-- ✅ Multi-channel complaint intake
-- ✅ AI-powered categorization
-- ✅ Image verification
-- ✅ Quality assurance callbacks
-- ✅ Legacy database tunneling
-
-### Phase 2 (Next 3 Months)
-- 🔄 Mobile app (iOS/Android)
-- 🔄 Multi-language support (10+ Indian languages)
-- 🔄 Predictive analytics (complaint hotspots)
-- 🔄 Citizen complaint history dashboard
-
-### Phase 3 (6 Months)
-- 🔄 Integration with all Indian cities
-- 🔄 Real-time video complaint submission
-- 🔄 Blockchain-based immutable audit logs
-- 🔄 AI-powered department performance scoring
-
----
-
 <div align="center">
 
 **CIVIC ASSISTANT** - *Empowering Citizens, Enabling Governance*
