@@ -38,7 +38,6 @@ Citizens can register complaints through:
 - 📧 **Email** → `grievancedelhicivic@gmail.com`
 - 🌐 **Web Portal** → [Complaint Registration Form](https://lean-hacks-backend.onrender.com/report.html)
 - 📞 **AI Voice Agent (Inbound)** → [Vaani - Voice Interface](https://vaani-hom5.vercel.app/)
-- 📱 **SMS** (Twilio Integration)
 
 All channels feed into **one unified dashboard** → [Officer Dashboard](https://jatinkhandelwal662-jk.github.io/Lean_Hacks-frontend/)
 
